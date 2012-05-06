@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="zubhium_menu_feedback">フィードバック</string>
+    <string name="zubhium_dialog_title_feedback">フィードバックを送信</string>
+    <string name="zubhium_msg_sending_feedback">ご協力ありがとうございます。フィードバックを送信中です。</string>
+    <string name="zubhium_hint_email">メールアドレス(省略可)</string>
+    <string name="zubhium_hint_feedback_message">メッセージをご記入ください。</string>
+    <string name="zubhium_feedback_category">フィードバックの種類</string>
+    <string name="zubhium_label_category_bug">バグ</string>
+    <string name="zubhium_label_category_feature">機能要望</string>
+    <string name="zubhium_label_category_other">その他</string>
+    <string name="zubhium_privacy">プライバシー</string>
+    <string name="zubhium_label_include_system_logs">システムデータを含める</string>
+    <string name="zubhium_label_include_system_logs_detail">問題の診断のために使用します。</string>
+
+</resources>
