@@ -60,7 +60,7 @@ public final class FeedbackUtils {
      * Zubhium application secret key. You MUST modify this value before using
      * this class.
      */
-    private static final String ZUBHIUM_APP_SECRET_KEY = "883ecc32c826daf33aef9454c207fc";
+    private static final String ZUBHIUM_APP_SECRET_KEY = "YOUR_SECRET_KEY";
 
     /**
      * Hide constructor because this is an utility class.

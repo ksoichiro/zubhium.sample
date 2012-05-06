@@ -29,20 +29,24 @@ import com.zubhium.ZubhiumSDK.CrashReportingMode;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.text.Html;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.TextView;
 
 /**
  * Sample activity for Zubhium custom feedback dialog.
  * 
  * @author ksoichiro
  */
-public class MainActivity extends Activity {
+public final class MainActivity extends Activity {
 
     @Override
-    public void onCreate(Bundle savedInstanceState) {
+    public void onCreate(final Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
+        ((TextView) findViewById(R.id.message)).setText(Html.fromHtml(getString(R.string.message)));
 
         ZubhiumSDK zubhiumSdk = FeedbackUtils.getZubhiumSDKInstance(this);
         if (zubhiumSdk != null) {
@@ -67,6 +71,15 @@ public class MainActivity extends Activity {
                 return false;
         }
         return true;
+    }
+
+    /**
+     * You can also use buttons to send feedbacks.
+     * 
+     * @param view button view
+     */
+    public void onClickFeedback(final View view) {
+        FeedbackUtils.sendFeedback(this);
     }
 
 }

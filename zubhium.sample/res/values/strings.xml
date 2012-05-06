@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="hello">Hello World, MainActivity!</string>
+    <string name="message">Zubhiumを利用したサンプルです。&lt;br/>&lt;br/>
+Zubhium:&lt;br/>
+https://www.zubhium.com&lt;br/>&lt;br/>
+
+このプロジェクト:&lt;br/>
+https://github.com/ksoichiro/zubhium.sample&lt;br/>&lt;br/>
+
+メニューからもフィードバックできます。</string>
     <string name="app_name">Zubhium Sample</string>
 
 </resources>

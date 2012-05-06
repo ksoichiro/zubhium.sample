@@ -14,3 +14,7 @@ gen/
 
 # Local configuration file (sdk path, etc)
 local.properties
+
+# Zubhium SDK library
+libs
+libs/zubhiumsdk.jar
